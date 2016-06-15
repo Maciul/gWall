@@ -1,2 +1,15 @@
 <h1> What's written is written. What's not written, is not written, gWall </h1>
-<h3> Tell us why you mad! </h3><br>
+
+<a href="gwall/post">Go on a RANTAGE here</a>
+
+
+<section>
+  {{#each posts}}
+  <div class="single-post">
+<h1>  {{username}} </h1>
+<img src={{image}} alt='username'>
+<h5> {{rant}} </h5>
+  </div>
+  {{/each}}
+
+</section>
